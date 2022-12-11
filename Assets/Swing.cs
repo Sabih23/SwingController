@@ -14,7 +14,7 @@ public class Swing : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.localPosition = pendulum.MoveBob(transform.localPosition, Time.deltaTime);
     }
